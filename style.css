@@ -179,6 +179,11 @@ h3, h2 {
   margin-right: 25px;
 }
 
+#auth-image2{
+  padding: 30px;
+  width: 860px;
+}
+
 /* contact page */
 
 #contact-form ul {
@@ -222,4 +227,11 @@ input[type=submit] {
 @media screen and (max-width: 991px) {
   nav {
     float: left;}
+}
+
+@media screen and (max-width: 860px) {
+  #auth-image2 {
+    width: 100%;
+    height: auto;
+  }
 }
